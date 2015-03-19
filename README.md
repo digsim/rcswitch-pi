@@ -19,7 +19,7 @@ You may want to changet the used GPIO pin before compilation in the send.cpp sou
 # Python bindings
 
 The code comes with Python bindings to call the code from Python:
-
+```python
 15:30 # python
 Python 2.7.3 (default, Mar 18 2014, 05:13:23) 
 [GCC 4.6.3] on linux2
@@ -29,3 +29,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> rc.enableTransmit(4)
 >>> rc.switchOn(2, 1)
 >>> 
+```
